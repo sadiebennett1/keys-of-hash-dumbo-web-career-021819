@@ -4,7 +4,7 @@ class Hash
     self.each do |key, value|
         if arguments.include?(value)
             arr << key
-        end 
+        end
     end
     return arr
   end
